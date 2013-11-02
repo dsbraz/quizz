@@ -1,0 +1,30 @@
+// Place all the styles related to the teams controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.teams {
+  margin: auto;
+  width: 506px;
+
+  label {
+    display: block;
+  }
+
+  input:not([type='submit']) {
+    width: 500px;
+    margin: {
+      top: 5px;
+      bottom: 10px;
+    }
+  }
+
+  .controls {
+    float: right;
+  }
+
+  .association {
+    input {
+      width: 160px;
+    }
+  }
+}

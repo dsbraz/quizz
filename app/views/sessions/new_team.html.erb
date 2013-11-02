@@ -1,0 +1,13 @@
+<section class="teams">
+  <h2>Cadastro de times</h2>
+  <%= form_tag(team_sessions_path) do %>
+    <%= label_tag :username %>
+    <%= text_field_tag :username %> <br />
+    <%= label_tag :password %>
+    <%= password_field_tag :password %> <br />
+    <div class="controls">
+      <%= link_to "criar novo", new_team_path %> ou
+      <%= submit_tag 'acessar' %>
+    </div>
+  <% end %>
+</section>

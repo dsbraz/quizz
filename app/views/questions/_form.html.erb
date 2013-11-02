@@ -1,0 +1,8 @@
+<%= form_for @question, html: { id: "form" }  do |f| %>
+  <%= f.fields_for @question.answers.build do |builder| %>
+    <%= builder.hidden_field :json_value, id: "answer" %>
+  <% end %>
+  <span class="arrow">
+    <%= f.submit "proxima" %>
+  </span>
+<% end %>

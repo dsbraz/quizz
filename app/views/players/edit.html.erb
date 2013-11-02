@@ -1,0 +1,17 @@
+<div class="players">
+  <div class="edit-content">
+    <div>
+      <%= image_tag "players/#{params[:avatar]}_detalhes.png", id: "detalhe" %>
+      <div class="intros">
+        <video src="<%= asset_path "players/intro_1.mp4" %>" id="poseidonIntro" controls></video>
+        <video src="<%= asset_path "players/intro_2.mp4" %>" id="avatarIntro" controls></video>
+      </div>
+    </div>
+    <span class="arrow">
+      <%= link_to (button_tag "voltar"), player_path(@player) %>
+    </span>
+    <%= form_for @player, html: { id: "form" } do |f| %>
+      <%= f.hidden_field :avatar, value: params[:avatar] %>
+    <% end %>
+  </div>
+</div>

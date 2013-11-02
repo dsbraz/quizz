@@ -1,0 +1,15 @@
+<div class="players">
+  <div class="show-content">
+    <div class="logo">
+      <%= image_tag "players/logo.png" %>
+    </div>
+    <div>
+      <%= link_to (image_tag "players/joao.png", class: "avatar joao"), edit_player_path(@player, avatar: "joao") %>
+      <%= link_to (image_tag "players/camila.png", class: "avatar camila"), edit_player_path(@player, avatar: "camila") %>
+      <%= link_to (image_tag "players/fernanda.png", class: "avatar fernanda"), edit_player_path(@player, avatar: "fernanda") %>
+      <%= link_to (image_tag "players/chico.png", class: "avatar chico"), edit_player_path(@player, avatar: "chico") %>
+      <%= link_to (image_tag "players/luiz.png", class: "avatar luiz"), edit_player_path(@player, avatar: "luiz") %>
+      <%= link_to (image_tag "players/zezinho.png", class: "avatar zezinho"), edit_player_path(@player, avatar: "zezinho") %>
+    </div>
+  </div>
+</div>

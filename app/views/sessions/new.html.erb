@@ -1,0 +1,14 @@
+<section class="sessions">
+  <div class="content">
+    <%= image_tag "sessions/logo.png", class: "logo" %>
+    <div class="box">
+      <%= form_tag(sessions_path) do %>
+        <%= label_tag :cpf %>
+        <%= text_field_tag :username, nil, class: "field username" %> <br />
+        <%= label_tag :senha %>
+        <%= password_field_tag :password, nil, class: "field password" %> <br />
+        <%= submit_tag 'acessar', class: "submit" %>
+      <% end %>
+    </div>
+  </div>
+</section>

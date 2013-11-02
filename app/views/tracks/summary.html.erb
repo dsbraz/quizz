@@ -1,0 +1,7 @@
+<section class="tracks">
+  <div class="summary" data-path="<%= tracks_path %>">
+    <div class="score"><div><%= "%02d" % @score %></div></div>
+    <div class="character"><%= image_tag "tracks/summary/#{["cliente", "padeiro"][rand(0..1)]}_#{@avatar}.png" %></div>
+    <%= image_tag "tracks/summary/#{@track.name}.jpg", class: "bg" %>
+  </div>
+</section>

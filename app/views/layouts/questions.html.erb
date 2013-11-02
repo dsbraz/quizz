@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quizz</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "jquery-ui", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <section class="questions">
+    <div class="video-bg">
+      <video src="<%= asset_path "questions/#{@question.track_name}/bg.mp4" %>" autoplay loop></video>
+    </div>
+    <div class="content">
+      <header class="header">
+        <%= image_tag "questions/livro.png", class: "poseidon botao" %>
+        <%= link_to (image_tag "questions/mapa.png", class: "mapa botao"), tracks_path %>
+        <%= image_tag "questions/pausa.png", class: "pausa botao", id: "pause" %>
+        <%= image_tag "questions/#{@question.track_name}/titulo.png", class: "titulo" %>
+        <%= image_tag "questions/logo.png", class: "logo" %>
+      </header>
+      <div class="track">
+        <%= yield %>
+      </div>
+      <div class="side">
+        <video src="<%= asset_path "questions/#{@avatar}.mp4" %>" id="oxigenio" autoplay></video>
+      </div>
+      <nav class="nav">
+        <%= render "form" %>
+      </nav>
+    </div>
+    <%= render "shared/poseidon" %>
+  </section>
+</body>
+</html>

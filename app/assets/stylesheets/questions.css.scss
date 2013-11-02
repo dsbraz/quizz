@@ -1,0 +1,86 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.questions {
+  height: 100%;
+
+  .video-bg {
+    position: absolute;
+    height: 100%;
+    z-index: -1000;
+    video {
+      height: 100%;
+    }
+  }
+
+  .header {
+    height: 145px;
+  }
+
+  .content {
+    margin: auto;
+    width: 1100px;
+  }
+
+  .logo {
+    margin: {
+      top: 15px;
+      right: 100px;
+    }
+    float: right;
+  }
+
+  .titulo {
+    margin: {
+      left: -306px;
+      top: 75px;
+    }
+  }
+
+  .botao {
+    float: left;
+  }
+
+  .pause {
+    background-color: #22269E;
+  }
+
+  .track {
+    width: 960px;
+    height: 520px;
+    float: left;
+  }
+
+  .side {
+    width: 135px;
+    height: 520px;
+    float: right;
+    video {
+      margin-top: 80px;
+    }
+  }
+
+  .nav {
+    height: 24px;
+    clear: both;
+    .arrow {
+      background: #bf3605;
+      color: #fff;
+      input {
+        float: right;
+        border: none;
+        color: white;
+        background-color: #bf3605;
+        height: 20px;
+        width: 92px;
+      }
+    }
+    .arrow:before {
+      border: 10px solid transparent;
+      border-left-color: #bf3605;
+      content: "";
+      float: right;
+    }
+  }
+}

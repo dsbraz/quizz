@@ -1,0 +1,84 @@
+.questions .toca {
+  position: absolute;
+
+  div { position: absolute; }
+
+  img { position: absolute; }
+
+  .question1 {
+    #question { left: 30px; top: 2px; }
+    #radioA {
+      top: 176px;
+      left: 451px;
+      width: 200px;
+      height: 362px;
+    }
+  }
+
+  .question2 {
+    .check { left: 148px; width: 18px; height: 18px; border-radius: 15px; }
+    #question { left: 104px; top: 6px; }
+    #checkA { top: 126px; }
+    #checkB { top: 201px; }
+    #checkC { top: 284px; }
+    #checkD { top: 370px; }
+    #checkE { top: 483px; }
+    .checked { background-color: white; }
+  }
+
+  .question3 {
+    #question { left: 30px; top: 2px; }
+    .radioV { left: 37px; }
+    .radioF { left: 71px; }
+    .radioA { top: 115px; }
+    .radioB { top: 211px; }
+    .radioC { top: 283px; }
+    .radioD { top: 357px; }
+    .radioE { top: 453px; }
+    .selected { border: 2px solid red; }
+  }
+
+  .question4 {
+    #question { left: 30px; top: 2px; }
+    #checkA { left: 628px; top: 294px; }
+    #checkB { left: 118px; top: 294px; }
+    #checkC { left: 511px; top: 72px; }
+    #checkD { left: 261px; top: 72px; }
+    .checked { display: none; }
+  }
+
+  .question5 {
+    #question { left: 10px; top: 2px; }
+    .drop { width: 133px; height: 40px }
+    #dropA { left: 488px; top: 108px; }
+    #dropB { left: 258px; top: 158px; }
+    #dropC { left: 561px; top: 158px; }
+    #dropD { left: 271px; top: 239px; }
+    #dropE { left: 298px; top: 288px; }
+    #dropF { left: 102px; top: 340px; }
+    .drag { top: 431px; }
+    #dragA { left: 48px; }
+    #dragB { left: 192px; }
+    #dragC { left: 333px; }
+    #dragD { left: 476px; }
+    #dragE { left: 621px; }
+    #dragF { left: 765px; }
+  }
+
+  .question6 {
+    #question { left: 30px; top: -4px; }
+    .check { width: 14px; height: 14px; left: 60px; border: 1px solid white; }
+    #checkA { top: 103px; }
+    #checkB { top: 141px; }
+    #checkC { top: 188px; }
+    #checkD { top: 233px; }
+    #checkE { top: 270px; }
+    #checkF { top: 306px; }
+    #checkG { top: 343px; }
+    #checkH { top: 388px; }
+    #checkI { top: 440px; }
+    #checkJ { top: 486px; }
+    #checkK { top: 523px; }
+    .checked { background-color: white; }
+  }
+}

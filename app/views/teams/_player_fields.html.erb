@@ -1,0 +1,6 @@
+<tr class="association">
+  <td><%= f.text_field :username %></td>
+  <td><%= f.text_field :password %></td>
+  <td><%= f.text_field :password_confirmation %></td>
+  <td><%= f.hidden_field :_destroy %><%= link_to_function "remover", "remove_association(this)" %></td>
+</tr>

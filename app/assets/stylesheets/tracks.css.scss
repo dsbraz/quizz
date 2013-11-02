@@ -1,0 +1,48 @@
+// Place all the styles related to the Tracks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.tracks {
+  height: 100%;
+
+  .index {
+    height: 100%;
+    background: url(image_path("tracks/bg.jpg")) no-repeat center center fixed;
+    background-size: cover;
+    .content {
+      margin: auto;
+      width: 970px;
+      height: 600px;
+      padding-top: 66px;
+      .track { position: absolute; }
+      .toca { left: 331px; top: 111px; }
+      .poseidon { left: 602px; top: 175px; }
+      .cavalo { left: 753px; top: 108px; }
+      .naufragio { left: 789px; top: 292px; }
+      .coral { left: 335px; top: 291px; }
+    }
+  }
+
+  .summary {
+    .bg {
+      width: 100%;
+      height: 100%;
+    }
+    .score {
+      position: absolute;
+      color: white;
+      font-size: 80px;
+      left: 600px;
+      top: 185px;
+    }
+    .character {
+      position: absolute;
+      cursor: pointer;
+      left: 366px;
+      top: 226px;
+      img {
+        width: 592px;
+      }
+    }
+  }
+}

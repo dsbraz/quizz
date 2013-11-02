@@ -1,0 +1,56 @@
+# This file should contain all the record creation needed to seed the database with its default values.
+# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
+#
+# Examples:
+#
+#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
+#   Mayor.create(name: 'Emanuel', city: cities.first)
+
+team = Team.create(username: "team", password: "123456", password_confirmation: "123456")
+team.players.create(username: "playerA", password: "123456", password_confirmation: "123456")
+team.players.create(username: "playerB", password: "123456", password_confirmation: "123456")
+
+toca = Track.create(name: "toca")
+toca.questions.create(name: "question_1", answer_key: '"A"')
+toca.questions.create(name: "question_2", answer_key: '["A","C","D"]')
+toca.questions.create(name: "question_3", answer_key: '{"A":"V","B":"F","C":"V","D":"V","E":"V"}')
+toca.questions.create(name: "question_4", answer_key: '["C"]')
+toca.questions.create(name: "question_5", answer_key: '{"C":"A","A":"B","B":"C","F":"D","E":"E","D":"F"}')
+toca.questions.create(name: "question_6", answer_key: '["A","C","E","G","I","J","F"]')
+
+cavalo = Track.create(name: "cavalo")
+cavalo.questions.create(name: "question_1", answer_key: '{"E":"A","B":"B","D":"C","A":"D","C":"E"}')
+cavalo.questions.create(name: "question_2", answer_key: '{"B":"A","C":"B","A":"C","J":"D","K":"E","I":"F","G":"G","F":"H","H":"I","D":"J","E":"K"}')
+cavalo.questions.create(name: "question_3", answer_key: '{"D":"A","C":"B","B":"C","A":"D"}')
+cavalo.questions.create(name: "question_4", answer_key: '{"A":"F","B":"V","C":"V"}')
+cavalo.questions.create(name: "question_5", answer_key: '"B"')
+cavalo.questions.create(name: "question_6", answer_key: '{"B":"A","A":"B"}')
+cavalo.questions.create(name: "question_7", answer_key: '{"A":"B","D":"B","B":"A","C":"A"}')
+cavalo.questions.create(name: "question_8", answer_key: '{"E":"B","F":"D","D":"A","C":"E","B":"C","A":"F"}')
+cavalo.questions.create(name: "question_9", answer_key: '{"D":"A","E":"D","B":"B","F":"E","C":"C","A":"F"}')
+cavalo.questions.create(name: "question_10", answer_key: '{"G":"A","D":"A","E":"A","H":"A","F":"A","C":"B","B":"B","A":"B"}')
+cavalo.questions.create(name: "question_11", answer_key: '{"B":"A","D":"B","E":"C","A":"D","C":"E"}')
+cavalo.questions.create(name: "question_12", answer_key: '{"A":"A","B":"B","C":"C","D":"D","E":"E"}')
+cavalo.questions.create(name: "question_13", answer_key: '{"A":"A","B":"B","C":"C","D":"D","E":"E","F":"F","G":"G","H":"H"}')
+
+naufragio = Track.create(name: "naufragio")
+naufragio.questions.create(name: "question_1", answer_key: '{"A":"A","B":"B"}')
+naufragio.questions.create(name: "question_2", answer_key: '{"H":"A","J":"B","I":"C","E":"D","D":"E","F":"F"}')
+naufragio.questions.create(name: "question_3", answer_key: '{"D":"A","B":"B","C":"C","A":"D"}')
+naufragio.questions.create(name: "question_4", answer_key: '{"D":"A","B":"B","E":"C","C":"E","A":"D"}')
+naufragio.questions.create(name: "question_5", answer_key: '"A"')
+naufragio.questions.create(name: "question_6", answer_key: '{"A":"A","B":"D","C":"B","D":"E","E":"C","F":"F"}')
+naufragio.questions.create(name: "question_7", answer_key: '{"A":"A","B":"B","C":"C","D":"D","E":"F","F":"E"}')
+naufragio.questions.create(name: "question_8", answer_key: '{"A":"V","B":"V","C":"V","D":"F","E":"F"}')
+
+coral = Track.create(name: "coral")
+coral.questions.create(name: "question_1", answer_key: '"A"')
+coral.questions.create(name: "question_2", answer_key: '{"A":"A","B":"B","C":"C","D":"D"}')
+coral.questions.create(name: "question_3", answer_key: '{"C":"A","A":"B","B":"C","D":"D"}')
+coral.questions.create(name: "question_4", answer_key: '{"A":"D","D":"B","B":"A","C":"C"}')
+coral.questions.create(name: "question_5", answer_key: '["E","B","A"]')
+coral.questions.create(name: "question_6", answer_key: '{"A":"V","B":"F","C":"V","D":"V"}')
+coral.questions.create(name: "question_7", answer_key: '{"A":"A","B":"B","C":"C"}')
+coral.questions.create(name: "question_8", answer_key: '"A"')
+coral.questions.create(name: "question_9", answer_key: '"D"')
+coral.questions.create(name: "question_10", answer_key: '{"C":"A","B":"B","A":"C"}')

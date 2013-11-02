@@ -1,0 +1,12 @@
+<section class="tracks">
+  <div class="index">
+    <div class="content">
+      <%= image_tag "tracks/poseidon.png", class: "track poseidon" %>
+      <% @tracks.each_with_index do |track, idx| %>
+        <%= link_to (image_tag "tracks/#{track.name}.png", class: "track #{track.name}"),
+          @done_statuses[idx] ? summary_track_path(track) : resume_track_path(track) %>
+      <% end %>
+    </div>
+    <%= render "shared/poseidon" %>
+  </div>
+</section>

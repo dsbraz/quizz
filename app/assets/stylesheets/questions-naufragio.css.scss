@@ -1,0 +1,125 @@
+.questions .naufragio {
+  position: absolute;
+
+  div { position: absolute; }
+
+  img { position: absolute; }
+
+  .question1 {
+    #question { left: 131px; top: -5px; }
+    .drop {  width: 144px; height: 46px; }
+    #dropA { left: 170px; top: 256px; }
+    #dropB { left: 562px; top: 163px; }
+    #dragA { left: 484px; top: 85px; }
+    #dragB { left: 269px; top: 85px; }
+  }
+
+  .question2 {
+    #question { left: 30px; top: 2px; }
+    .drop { left: 363px; width: 235px; height: 65px; border: 1px solid white; }
+    #dropA { top: 96px; }
+    #dropB { top: 167px; }
+    #dropC { top: 238px; }
+    #dropD { top: 309px; }
+    #dropE { top: 380px; }
+    #dropF { top: 451px; }
+    .drag-left { left: 72px }
+    .drag-right { left: 645px }
+    #dragA { top: 417px; }
+    #dragB { top: 414px; }
+    #dragC { top: 343px; }
+    #dragD { top: 345px; }
+    #dragE { top: 273px; }
+    #dragF { top: 275px; }
+    #dragG { top: 203px; }
+    #dragH { top: 202px; }
+    #dragI { top: 129px; }
+    #dragJ { top: 133px; }
+  }
+
+  .question3 {
+    #question { left: 36px; top: 2px; }
+    .drag { top: 431px; }
+    #dragA { left: 168px; }
+    #dragB { left: 331px; }
+    #dragC { left: 496px; }
+    #dragD { left: 659px; }
+    .drop { width: 130px; height: 29px; }
+    #dropA { left: 102px; top: 136px; }
+    #dropB { left: 311px; top: 213px; }
+    #dropC { left: 174px; top: 286px; }
+    #dropD { left: 313px; top: 365px;  }
+  }
+
+  .question4 {
+    #question { left: 10px; top: 2px; }
+    .drop { width: 100px; height: 50px; }
+    #dropA { left: 550px;top: 67px; }
+    #dropB { left: 390px;top: 133px; }
+    #dropC { left: 580px;top: 133px; }
+    #dropD { left: 458px;top: 269px; }
+    #dropE { left: 463px;top: 351px; }
+    #dragA { left: 690px; top: 424px; }
+    #dragB { left: 848px; top: 354px; }
+    #dragC { left: 689px; top: 355px; }
+    #dragD { left: 704px; top: 273px; }
+    #dragE { left: 848px; top: 424px; }
+  }
+
+  .question5 {
+    #question { left: 30px; top: 2px; }
+    .radio { left: 68px; width: 20px; height: 20px; border-radius: 15px; }
+    #radioA { top: 96px; }
+    #radioB { top: 164px; }
+    #radioC { top: 228px; }
+    #radioD { top: 325px; }
+    #radioE { top: 395px; }
+    #radioF { top: 468px; }
+  }
+
+  .question6 {
+    #question { left: 10px; top: 2px; }
+    #dropA { left: 104px;top: 381px; }
+    #dropB { left: 353px;top: 323px; }
+    #dropC { left: 623px;top: 277px; }
+    #dropD { left: 219px;top: 350px; }
+    #dropE { left: 483px;top: 220px; }
+    #dropF { left: 752px;top: 193px; }
+    .drag { top: 164px; }
+    #dragA { left: 563px; }
+    #dragB { left: 196px; }
+    #dragC { left: 380px; }
+    #dragD { left: 289px; }
+    #dragE { left: 649px; }
+    #dragF { left: 478px; }
+  }
+
+  .question7 {
+    #question { left: 10px; top: -8px; }
+    .drop { left: 12px; width: 70px; height: 35px; border: 1px solid white; }
+    #dropA { top: 62px; }
+    #dropB { top: 123px; }
+    #dropC { top: 178px; }
+    #dropD { top: 232px; }
+    #dropE { top: 352px; }
+    #dropF { top: 293px; }
+    #dragA { left: 218px; top: 493px; }
+    #dragB { left: 398px; top: 474px; }
+    #dragC { left: 486px; top: 449px; }
+    #dragD { left: 300px; top: 489px; }
+    #dragE { left: 570px; top: 436px; }
+    #dragF { left: 666px; top: 424px; }
+  }
+
+  .question8 {
+    #question { left: 30px; top: 2px; }
+    .radioV { left: 38px; }
+    .radioF { left: 73px; }
+    .radioA { top: 173px; }
+    .radioB { top: 241px; }
+    .radioC { top: 311px; }
+    .radioD { top: 398px; }
+    .radioE { top: 462px; }
+    .selected { border: 2px solid red; }
+  }
+}

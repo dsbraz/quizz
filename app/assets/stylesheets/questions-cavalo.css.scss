@@ -1,0 +1,207 @@
+.questions .cavalo {
+  position: absolute;
+
+  div { position: absolute; }
+
+  img { position: absolute; }
+
+  .question1 {
+    #question { left: 36px; top: 2px; }
+    .drag { top: 431px; }
+    .drop { width: 200px; height: 30px; }
+    #dragA { left: 183px; }
+    #dragB { left: 338px; }
+    #dragC { left: 544px; }
+    #dragD { left: 785px; }
+    #dragE { left: 29px; }
+    #dropA { left: 318px; top: 112px; }
+    #dropB { left: 390px; top: 176px; }
+    #dropC { left: 231px; top: 242px; }
+    #dropD { left: 536px; top: 243px; }
+    #dropE { left: 410px; top: 313px; }
+  }
+
+  .question2 {
+    #question { left: 36px; top: 2px; }
+    .drag { top: 431px; }
+    .drop { height: 27px; }
+    #dragA { left: 214px; top: 413px; }
+    #dragB { left: 309px; top: 429px; }
+    #dragC { left: 251px; top: 460px; }
+    #dragD { left: 513px; top: 399px; }
+    #dragE { left: 504px; top: 462px; }
+    #dragF { left: 424px; top: 443px; }
+    #dragG { left: 484px; top: 428px; }
+    #dragH { left: 413px; top: 399px; }
+    #dragI { left: 642px; top: 462px; }
+    #dragJ { left: 695px; top: 430px; }
+    #dragK { left: 641px; top: 399px; }
+    #dropA { left: 431px; top: 220px; width: 20px; }
+    #dropB { left: 455px; top: 220px; width: 46px; }
+    #dropC { left: 506px; top: 220px; width: 71px; }
+    #dropD { left: 150px; top: 262px; width: 71px; }
+    #dropE { left: 226px; top: 262px; width: 46px; }
+    #dropF { left: 276px; top: 262px; width: 71px; }
+    #dropG { left: 227px; top: 301px; width: 20px; }
+    #dropH { left: 251px; top: 301px; width: 46px; }
+    #dropI { left: 301px; top: 301px; width: 71px; }
+    #dropJ { left: 376px; top: 301px; width: 46px; }
+    #dropK { left: 426px; top: 301px; width: 46px; }
+  }
+
+  .question3 {
+    #question { left: 36px; top: 2px; }
+    .drag { top: 431px; }
+    .drop { top: 346px; width: 140px; height: 46px; }
+    #dragA { left: 118px; }
+    #dragB { left: 300px; }
+    #dragC { left: 480px; }
+    #dragD { left: 656px; }
+    #dropA { left: 56px; }
+    #dropB { left: 234px; }
+    #dropC { left: 412px; }
+    #dropD { left: 591px; }
+  }
+
+  .question4 {
+    #question { left: 30px; top: 2px; }
+    .radioV { left: 38px; }
+    .radioF { left: 73px; }
+    .radioA { top: 173px; }
+    .radioB { top: 276px; }
+    .radioC { top: 370px; }
+    .selected { border: 2px solid red; }
+  }
+
+  .question5 {
+    .radio { left: 141px; width: 20px; height: 20px; border-radius: 15px; }
+    #question { left: 104px; top: 6px; }
+    #radioA { top: 195px; }
+    #radioB { top: 377px; }
+  }
+
+  .question6 {
+    #question { left: 36px; top: 2px; }
+    .drag { top: 431px; }
+    .drop { left: 70px; width: 480px; height: 36px; }
+    #dragA { left: 28px; }
+    #dragB { left: 505px; }
+    #dropA { top: 183px; }
+    #dropB { top: 323px; }
+  }
+
+  .question7 {
+    #question { left: 36px; top: 2px; }
+    .drop { top: 190px; width: 330px; height: 215px; }
+    #dragA { left: 46px; top: 420px; }
+    #dragB { left: 378px; top: 423px; }
+    #dragC { left: 378px; top: 481px; }
+    #dragD { left: 703px; top: 446px; }
+    #dropA { left: 406px; }
+    #dropB { left: 53px; }
+  }
+
+  .question8 {
+    #question { left: 36px; top: 2px; }
+    .drag { top: 471px; }
+    .drop { left: 49px; width: 116px; height: 30px; }
+    #dragA { left: 760px; }
+    #dragB { left: 617px; }
+    #dragC { left: 477px; }
+    #dragD { left: 332px; }
+    #dragE { left: 191px; }
+    #dragF { left: 51px; }
+    #dropA { top: 156px; }
+    #dropB { top: 208px; }
+    #dropC { top: 269px; }
+    #dropD { top: 345px; }
+    #dropE { top: 393px; }
+    #dropF { top: 432px; }
+  }
+
+  .question9 {
+    #question { left: 36px; top: 2px; }
+    .drag { top: 471px; }
+    .drop { width: 116px; height: 30px; }
+    #dragA { left: 760px; }
+    #dragB { left: 617px; }
+    #dragC { left: 477px; }
+    #dragD { left: 332px; }
+    #dragE { left: 191px; }
+    #dragF { left: 51px; }
+    #dropA { left: 107px; top: 133px; }
+    #dropB { left: 104px; top: 263px; }
+    #dropC { left: 119px; top: 412px; }
+    #dropD { left: 430px; top: 136px; }
+    #dropE { left: 466px; top: 264px; }
+    #dropF { left: 447px; top: 399px; }
+  }
+
+  .question10 {
+    #question { left: 36px; top: 2px; }
+    .drop { top: 144px; width: 330px; height: 215px; }
+    #dragA { left: 56px; top: 389px; }
+    #dragB { left: 80px; top: 436px; }
+    #dragC { left: 338px; top: 389px; }
+    #dragD { left: 351px; top: 482px; }
+    #dragE { left: 620px; top: 458px; }
+    #dragF { left: 626px; top: 415px; }
+    #dragG { left: 28px; top: 466px; }
+    #dragH { left: 631px; top: 381px; }
+    #dropA { left: 57px; }
+    #dropB { left: 415px; }
+  }
+
+  .question11 {
+    #question { left: 36px; top: 2px; }
+    .drag { top: 427px; }
+    .drop { width: 135px; height: 32px; }
+    #dragA { left: 794px; }
+    #dragB { left: 628px; }
+    #dragC { left: 418px; }
+    #dragD { left: 257px; }
+    #dragE { left: 98px; }
+    #dropA { left: 90px; top: 139px; }
+    #dropB { left: 571px; top: 139px; }
+    #dropC { left: 312px; top: 209px; }
+    #dropD { left: 259px; top: 272px; }
+    #dropE { left: 447px; top: 338px; }
+  }
+
+  .question12 {
+    #question { left: 36px; top: 2px; }
+    .drag { top: 455px; }
+    .drop { left: 39px; width: 99px; height: 56px; }
+    #dragA { left: 722px; }
+    #dragB { left: 570px; }
+    #dragC { left: 418px; }
+    #dragD { left: 257px; }
+    #dragE { left: 98px; }
+    #dropA { top: 103px; }
+    #dropB { top: 175px; }
+    #dropC { top: 246px; }
+    #dropD { top: 316px; }
+    #dropE { top: 386px; }
+  }
+
+ .question13 {
+    #question { left: 36px; top: 2px; }
+    .drop { width: 152px; height: 140px; border: 1px solid white; }
+    #dragA { left: 769px; top: 341px; }
+    #dragB { left: 701px; top: 373px; }
+    #dragC { left: 754px; top: 318px; }
+    #dragD { left: 783px; top: 355px; }
+    #dragE { left: 750px; top: 366px; }
+    #dragF { left: 748px; top: 338px; }
+    #dragG { left: 749px; top: 337px; }
+    #dragH { left: 742px; top: 369px; }
+    #dropA { left: 151px; top: 63px; }
+    #dropB { left: 362px; top: 64px; }
+    #dropC { left: 581px; top: 63px; }
+    #dropD { left: 151px; top: 220px; }
+    #dropE { left: 363px; top: 220px; }
+    #dropF { left: 581px; top: 219px; }
+    #dropG { left: 151px; top: 375px; }
+    #dropH { left: 364px; top: 375px; }
+  }
+}
